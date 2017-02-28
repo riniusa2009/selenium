@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name=" HomePageTest (failed)">
+    <classes>
+      <class name="com.wbl.Test.HomePageTest">
+        <methods>
+          <include name="before"/>
+          <include name="testSearchBox"/>
+          <include name="headerNavi"/>
+        </methods>
+      </class> <!-- com.wbl.Test.HomePageTest -->
+      <class name="com.wbl.Test.AddingcartTest">
+        <methods>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.wbl.Test.AddingcartTest -->
+      <class name="com.wbl.Test.SignTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.wbl.Test.SignTest -->
+    </classes>
+  </test> <!--  HomePageTest (failed) -->
+  <test name="AddingCartTest(failed)">
+    <classes>
+      <class name="com.wbl.Test.HomePageTest">
+        <methods>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.wbl.Test.HomePageTest -->
+      <class name="com.wbl.Test.AddingcartTest">
+        <methods>
+          <include name="checkLink"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.wbl.Test.AddingcartTest -->
+      <class name="com.wbl.Test.SignTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.wbl.Test.SignTest -->
+    </classes>
+  </test> <!-- AddingCartTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

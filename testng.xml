@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name=" HomePageTest ">
+    <classes>
+      <class name="com.wbl.Test.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="AddingCartTest">
+  <classes>     
+     <class name="com.wbl.Test.AddingcartTest"/>
+    </classes>
+    </test>
+ </suite> <!-- Suite -->

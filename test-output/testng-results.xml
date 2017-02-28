@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7279" started-at="2017-02-22T19:55:07Z" finished-at="2017-02-22T19:55:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7279" started-at="2017-02-22T19:55:07Z" finished-at="2017-02-22T19:55:14Z">
+      <class name="com.wbl.Test.SignTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.wbl.Test.SignTest@8bd1b6a]" name="beforeSuite" is-config="true" duration-ms="11128" started-at="2017-02-22T11:54:56Z" finished-at="2017-02-22T11:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.wbl.Test.SignTest@8bd1b6a]" name="before" is-config="true" duration-ms="3580" started-at="2017-02-22T11:55:07Z" finished-at="2017-02-22T11:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="instanceDbProvider(java.lang.String, java.lang.String)[pri:0, instance:com.wbl.Test.SignTest@8bd1b6a]" name="instanceDbProvider" duration-ms="1899" started-at="2017-02-22T11:55:11Z" data-provider="getData" finished-at="2017-02-22T11:55:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rinibrijesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tyagi2009]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instanceDbProvider -->
+        <test-method status="PASS" signature="instanceDbProvider(java.lang.String, java.lang.String)[pri:0, instance:com.wbl.Test.SignTest@8bd1b6a]" name="instanceDbProvider" duration-ms="1781" started-at="2017-02-22T11:55:12Z" data-provider="getData" finished-at="2017-02-22T11:55:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rinipandey12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[six]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instanceDbProvider -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.wbl.Test.SignTest@8bd1b6a]" name="afterSuite" is-config="true" duration-ms="115" started-at="2017-02-22T11:55:14Z" finished-at="2017-02-22T11:55:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.wbl.Test.SignTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
